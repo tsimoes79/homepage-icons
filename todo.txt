@@ -1,0 +1,17 @@
+
+This folder is used to define custom icons in my Homepage dashboard.
+I try to mount an icon folder inside homepage container to load an icon with no success at all.
+This way, I just upload the icon that I want to github and point it in services.xml.
+I created a new PUBLIC repository for that. It has to be public.
+But a specific change needs to be done and is VERY important:
+
+
+- After upload, copy the link address and replace the string "github.com" to "raw.githubusercontent". The rest of the adress you can keep;
+
+	- https://github.com/tsimoes79/homepage-icons/blob/main/tplink-switch.png
+
+	- https://raw.githubusercontent.com/tsimoes79/homepage-icons/blob/main/tplink-switch.png
+
+- Remove the "/blob" in the middle of the link;
+
+- Now just use this new link as the source of the icon on services.xml file.
